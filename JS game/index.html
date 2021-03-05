@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HW_8</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body-wrap-style winning-bg">
+  <div class="wrap">
+    <div class="buttons">
+      <button class="start-button">Start new game</button>
+      <button class="skip-button status-active">Skip question</button>
+    </div>
+    <div class="game">
+      <p class="question status-active"> </p>
+      <div class="variants-wrap status-active">
+        <button id="0" class="variants-button"></button>
+        <button id="1" class="variants-button"></button>
+        <button id="2" class="variants-button"></button>
+        <button id="3" class="variants-button"></button>
+      </div>
+    </div>
+    <div class="total status-active">
+      <p>Total prize: <span class="span-total-prize">0</span> </p>
+      <p>Prize on current round: <span class="span-prize-of-round">100</span></p>
+    </div>
+    <div>
+      <h2 class="winning-sum">Game over.<br>Your prize is: <span class="span-winning-sum">0</span></h2>
+      <h2 class="jack-pot">Congratulations!<br>You won 1000000.</h2>
+    </div>
+  </div>
+  <script src="js/questions.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
